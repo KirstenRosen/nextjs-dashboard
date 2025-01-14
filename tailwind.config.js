@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+@type {import('tailwindcss').Config}
 
 const config = {
   content: [
@@ -27,7 +27,7 @@ const config = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: ['@tailwindcss/forms'],
 };
 
 export default config;
